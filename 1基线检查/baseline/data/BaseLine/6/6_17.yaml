@@ -1,0 +1,14 @@
+Belong: 6其他配置操作
+FormatVer: 20230523
+Id: '6_17'
+Power: root
+SiteInfo:
+  Name: 检查root用户的path环境变量
+SiteRequests:
+  Implement:
+    Condition: None
+    ImArray:
+    - Args: null
+      Exec: ../data/BaseLine/shellcode/6/6_17.sh
+    Inter:
+    - ''

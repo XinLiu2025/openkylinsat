@@ -1,0 +1,14 @@
+Belong: 6其他配置操作
+FormatVer: 20230523
+Id: '6_22'
+Power: root
+SiteInfo:
+  Name: 检查是否删除与设备运行，维护等工作无关的账号
+SiteRequests:
+  Implement:
+    Condition: None
+    ImArray:
+    - Args: null
+      Exec: ../data/BaseLine/shellcode/6/6_22.sh
+    Inter:
+    - ''

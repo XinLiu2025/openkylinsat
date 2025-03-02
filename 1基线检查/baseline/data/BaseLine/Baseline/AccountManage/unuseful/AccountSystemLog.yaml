@@ -1,0 +1,17 @@
+FormatVer: 20220411
+Id: checkEmpty
+Belong: baseline
+SiteInfo:
+    Name: 检测空口令账户
+Power : "root"
+SiteRequests:
+    Implement: 
+        ImArray:
+            - Exec : awk
+              Args : 
+                - "  "
+                - "'length($2)==0 {print $1}' /etc/shadow"
+        Inter:
+            - "" #判断输出为空为不存在
+        Advice: "建议删除空口零账户"
+        Condition: None

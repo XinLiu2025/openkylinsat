@@ -1,0 +1,14 @@
+Belong: 6其他配置操作
+FormatVer: 20230523
+Id: '6_16'
+Power: root
+SiteInfo:
+  Name: 检查是否按用户分配账号
+SiteRequests:
+  Implement:
+    Condition: None
+    ImArray:
+    - Args: null
+      Exec: ../data/BaseLine/shellcode/6/6_16.sh
+    Inter:
+    - ''

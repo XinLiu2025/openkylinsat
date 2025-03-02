@@ -1,0 +1,14 @@
+Belong: 3认证授权
+FormatVer: 20230523
+Id: '3_2_13'
+Power: root
+SiteInfo:
+  Name: 检查/etc/rc5.d目录权限
+SiteRequests:
+  Implement:
+    Condition: None
+    ImArray:
+    - Args: null
+      Exec: ../data/BaseLine/shellcode/3/3_2_13.sh
+    Inter:
+    - ''

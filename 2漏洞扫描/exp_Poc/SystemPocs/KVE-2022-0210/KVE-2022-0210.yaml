@@ -1,0 +1,47 @@
+FormatVer: 20220411
+Id: KVE-2022-0210
+Belong: system
+PocHazardLevel: low
+Source: 
+SiteInfo:
+    Name: 源管理服务的setMainSource接口任意文件写入漏洞。
+    Severity: high
+    Solution: https://kylinos.cn/support/loophole/patch/1329.html
+    Description:
+        com.kylin.software.properties.interface.setMainSource接口存在任意文件写入漏洞。实现方法是调用命令"cp file /etc/apt/sources.list"。但如果传递的参数为"['-t /etc /path/to/evil.txt']，由于开发者在实现时会将这个字符串按空格进行分割，并作为参数传递到cp命令，因此就会触发命令 "cp -t /etc /path/to/evil.txt /etc/apt/sources.list"，从而实现任意文件夹的任意文件写入，导致权限提升。任意命令。
+    ScopeOfInfluence:
+        kylin-software-properties< 0.0.1-127
+    References:
+        - https://kylinos.cn/support/loophole/patch/1871.html
+    SiteClassification:
+        CvssMetrics: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        CvssScore: 7.8
+        CveId: None
+        CweId: None
+        CnvdId: None
+        KveId: KVE-2022-0210
+    Tags:
+        - 权限提升
+        - dbus
+SiteRequests:
+    Implement: 
+        ImArray:
+            - Inter : python3
+              InterArgs :
+              Exec : KVE-2022-0210.py
+              Args : 
+        ExpireTime:       #second
+
+        # < input
+        # > output 
+        # . wait
+        # ? condition
+        # : content
+        #
+        #组合起来
+        # >. 等待直到输出 
+        # << 输入字符
+        # >?判断条件
+        Inter:
+            - ">?:successfully" #ture
+        Condition: None

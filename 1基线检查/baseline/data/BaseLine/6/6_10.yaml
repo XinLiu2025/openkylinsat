@@ -1,0 +1,14 @@
+Belong: 6其他配置操作
+FormatVer: 20230523
+Id: '6_10'
+Power: root
+SiteInfo:
+  Name: 检查是否限制远程登录IP范围
+SiteRequests:
+  Implement:
+    Condition: None
+    ImArray:
+    - Args: null
+      Exec: ../data/BaseLine/shellcode/6/6_10.sh
+    Inter:
+    - ''

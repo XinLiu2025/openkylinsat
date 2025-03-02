@@ -1,0 +1,14 @@
+Belong: 4日志审计
+FormatVer: 20230523
+Id: '4_5'
+Power: root
+SiteInfo:
+  Name: 检查是否配置su命令使用情况记录
+SiteRequests:
+  Implement:
+    Condition: None
+    ImArray:
+    - Args: null
+      Exec: ../data/BaseLine/shellcode/4/4_5.sh
+    Inter:
+    - ''

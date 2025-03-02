@@ -1,0 +1,17 @@
+FormatVer: 20220411
+Id: checkGid
+Belong: baseline
+SiteInfo:
+    Name: 检测特权组用户
+Power :
+SiteRequests:
+    Implement: 
+        ImArray:
+            - Exec : /bin/bash
+              Args : 
+                - "-c"
+                - "cat /etc/passwd | grep '/bin/bash' | awk -F: '$4==0 {print $1}' 2>/dev/null" 
+        Inter:
+            - "root" #判断输出为'uid=0(root)'为不存在
+        Advice: "建议减少特权用户"
+        Condition: None

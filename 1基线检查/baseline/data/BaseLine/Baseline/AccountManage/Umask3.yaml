@@ -1,0 +1,17 @@
+FormatVer: 20220411
+Id: Umask3
+Belong: baseline
+SiteInfo:
+    Name: 检测/etc/profile文件中所所设置的umask
+Power : "root"
+SiteRequests:
+    Implement: 
+        ImArray:
+            - Exec : cat 
+              Args : 
+                - "/etc/profile | grep umask | grep -v ^# | awk '{print $2}'"
+                
+        Inter:
+            - "" #判断输出为空为不存在
+        Advice: "/etc/profile文件中所所设置的umask建议为027"
+        Condition: None

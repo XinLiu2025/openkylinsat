@@ -1,0 +1,16 @@
+FormatVer: 20220411
+Id: CheckKernelVersion
+Belong: baseline
+SiteInfo:
+    Name: 检测内核版本
+Power : "root"
+SiteRequests:
+    Implement: 
+        ImArray:
+            - Exec : uname
+              Args : 
+                - "-a"
+                
+        Inter:
+            - "" #判断输出为空为出现错误
+        Condition: None

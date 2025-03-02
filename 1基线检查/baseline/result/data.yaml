@@ -1,0 +1,526 @@
+CheckTime: '2024-08-14 00:06:52'
+Hostname: nucKylin
+ScanProject:
+- Advice: No advice
+  Belong: 2账号口令
+  Id: '2_1'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否以设置口令生存周期
+- Advice: No advice
+  Belong: 2账号口令
+  Id: '2_4'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查设备密码复杂度策略
+- Advice: No advice
+  Belong: 2账号口令
+  Id: '2_5'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否存在空口令账户
+- Advice: No advice
+  Belong: 2账号口令
+  Id: '2_2'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否设置口令最小长度
+- Advice: No advice
+  Belong: 2账号口令
+  Id: '2_3'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否设置口令过期警告天数
+- Advice: No advice
+  Belong: 2账号口令
+  Id: '2_6'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否设置除root之外UID为0的用户
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_2_3'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/shadow文件权限
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_1_2'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/bashrc文件中umask设置
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_2_10'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/rc2.d目录权限
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_2_9'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/rc1.d目录权限
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_2_6'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/passwd文件权限
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_2_11'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc目录权限
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_3_2'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/shadow的文件属性
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_2_2'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/group文件权限
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_2_5'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/security目录权限
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_2_8'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/rc0.d目录权限
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_2_14'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/rc3.d目录权限
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_2_4'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/services文件权限
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_2_15'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/rc.d/init.d目录权限
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_2_16'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/tmp目录权限
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_3_3'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/group的文件属性
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_1_1'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/csh.cshrc中umask设置
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_5'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否设置SSH登录前警告Banner
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_2_7'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/rc6.d目录权限
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_4'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查用户目录缺省访问权限设置
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_1_3'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/profile文件中umask设置
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_2_18'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/grub/grub.conf文件权限
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_2_12'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/rc4.d目录权限
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_3_1'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/passwd的文件属性
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_2_1'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/xinetd.conf文件权限
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_2_19'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/lilo.conf文件权限
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_2_17'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/grub.conf文件权限
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_3_4'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/gshadow的文件属性
+- Advice: No advice
+  Belong: 3认证授权
+  Id: '3_2_13'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/etc/rc5.d目录权限
+- Advice: No advice
+  Belong: 4日志审计
+  Id: '4_3_4'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/var/log/boot.log
+- Advice: No advice
+  Belong: 4日志审计
+  Id: '4_3_6'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/var/log/localmessages
+- Advice: No advice
+  Belong: 4日志审计
+  Id: '4_3_2'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/var/log/secure
+- Advice: No advice
+  Belong: 4日志审计
+  Id: '4_3_7'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/var/log/spooler
+- Advice: No advice
+  Belong: 4日志审计
+  Id: '4_3_8'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/var/log/maillog
+- Advice: 参考《Linux安全配置基线》对应章节
+  Belong: 4日志审计
+  Id: '4_1'
+  JudgeResult: 'null'
+  Result: 应对远程日至进行筛选与审核。此检查项建议调整
+  SiteInfo_Name: 检查是否配置远程日志功能
+- Advice: No advice
+  Belong: 4日志审计
+  Id: '4_3_5'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/var/log/mail
+- Advice: No advice
+  Belong: 4日志审计
+  Id: '4_5'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否配置su命令使用情况记录
+- Advice: No advice
+  Belong: 4日志审计
+  Id: '4_3_1'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/var/log/cron
+- Advice: No advice
+  Belong: 4日志审计
+  Id: '4_3_3'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/var/log/messages
+- Advice: No advice
+  Belong: 4日志审计
+  Id: '4_4'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否对登录进行日志记录
+- Advice: No advice
+  Belong: 4日志审计
+  Id: '4_2'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查安全事件日志配置
+- Advice: No advice
+  Belong: 5协议安全
+  Id: '5_4'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否禁止root用户登录FTP
+- Advice: No advice
+  Belong: 5协议安全
+  Id: '5_1'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查系统openssh安全配置
+- Advice: 参考基线配置手册
+  Belong: 5协议安全
+  Id: '5_3'
+  JudgeResult: 'null'
+  Result: Telnet协议名文传输，安全性低，容易被嗅探泄漏信息。此检查项建议调整手动调整
+  SiteInfo_Name: 检查使用ip协议远程维护的设备是否配置ssh协议，禁用telnet协议
+- Advice: No advice
+  Belong: 5协议安全
+  Id: '5_2'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否修改SNMP默认团体字
+- Advice: No advice
+  Belong: 5协议安全
+  Id: '5_5'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否禁止匿名用户登录FTP
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_5'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否使用PAM认证模块禁止wheel组之外的用户su为root
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_30'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查FTP用户上传的文件所具有的权限
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_4'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查历史命令设置
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_29'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否设置SSH成功登录后Banner
+- Advice: 参考基线检测配置手册
+  Belong: 6其他配置操作
+  Id: '6_13'
+  JudgeResult: 'null'
+  Result: 对具有图形化界面的设备应配置定时自动屏幕锁定。此检查项建议调整
+  SiteInfo_Name: 检查是否配置定时自动屏幕锁定(适用于图形化界面)
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_9_1'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否关闭多ip绑定
+- Advice: 参考基线检测配置手册
+  Belong: 6其他配置操作
+  Id: '6_28'
+  JudgeResult: 'null'
+  Result: 及时安装操作系统补丁保证系统稳定性，此检查项建议系统管理员根据系统情况自行判断
+  SiteInfo_Name: 检查是否安装OS补丁
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_20'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查磁盘空间占用率
+- Advice: 参考基线检测配置手册
+  Belong: 6其他配置操作
+  Id: '6_15'
+  JudgeResult: 'null'
+  Result: 该项配置主要偏向于对系统用户的管理，如账户已分组管理，该检查项可以跳过。此检查项建议系统管理员根据系统情况自行判断
+  SiteInfo_Name: 检查是否按组进行账号管理
+- Advice: 参考基线检测配置手册
+  Belong: 6其他配置操作
+  Id: '6_16'
+  JudgeResult: 'null'
+  Result: 该项配置主要偏向于对系统用户的管理，如有未知账号，清及时调整与关闭。此检查项建议系统管理员根据系统情况自行判断
+  SiteInfo_Name: 检查是否按用户分配账号
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_3'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查系统coredump设置
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_1'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否设置命令行界面超时退出
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_18'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查系统是否禁用Ctrl+Alt+Delete组合键
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_32'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查/usr/bin/目录下可执行文件的拥有者属性
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_34'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否限制FTP用户登录后能访问的目录
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_26'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否使用NTP(网络时间协议)保持时间同步
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_27'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查NFS(网络文件系统)服务配置
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_24'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否关闭数据包转发功能
+- Advice: 参考极限检测配置手册
+  Belong: 6其他配置操作
+  Id: '6_8'
+  JudgeResult: 'null'
+  Result: 应配置密码失败次数限制，预防密码被爆破的风险。此检查项建议调整
+  SiteInfo_Name: 检查账户认证失败次数限制
+- Advice: 参考基线检测配置手册
+  Belong: 6其他配置操作
+  Id: '6_10'
+  JudgeResult: 'null'
+  Result: 应配置相关设置防止未知ip远程登录，此检查项建议系统管理员根据系统情况自行判断
+  SiteInfo_Name: 检查是否限制远程登录IP范围
+- Advice: 参考基线检测配置手册
+  Belong: 6其他配置操作
+  Id: '6_35'
+  JudgeResult: 'null'
+  Result: 不必要的端口和服务会扩大系统的被攻击面，此检查项建议系统管理员根据系统情况自行判断
+  SiteInfo_Name: 检查是否关闭不必要的服务和端口
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_19_1'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否存在equiv文件
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_23'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否配置用户所需最小权限
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_31'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查FTPbanner设置
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_14'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查系统内核参数配置
+- Advice: 参考基线配置手册
+  Belong: 6其他配置操作
+  Id: '6_6'
+  JudgeResult: 'null'
+  Result: 对系统账户登录进行限制，禁止账户交互式登录。此检查项建议调整
+  SiteInfo_Name: 检查是否对系统账户进行登录限制
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_12'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查拥有suid和sgid权限的文件
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_21'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否删除了潜在危险文件
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_33'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查Telnetbanner设置
+- Advice: 参考基线检测配置手册
+  Belong: 6其他配置操作
+  Id: '6_11'
+  JudgeResult: 'null'
+  Result: /etc/aliases是linux系统下的一种配置文件，作用是将使用者名称进行转换，此检查项建议系统管理员根据系统情况自行判断
+  SiteInfo_Name: 检查别名文件/etc/aliases
+- Advice: 参考基线检测配置手册
+  Belong: 6其他配置操作
+  Id: '6_25'
+  JudgeResult: 'null'
+  Result: 不必要的服务会消耗系统内存，且存在安全隐患，此检查项建议系统管理员根据系统情况自行判断
+  SiteInfo_Name: 检查是否关闭不必要的服务和端口
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_2'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否设置系统引导管理器密码
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_19_2'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查是否存在rhosts文件
+- Advice: 参考基线检测配置手册
+  Belong: 6其他配置操作
+  Id: '6_22'
+  JudgeResult: 'null'
+  Result: 该项配置主要偏向于对系统用户的管理，如有未知账号，请及时关闭。此项建议整改
+  SiteInfo_Name: 检查是否删除与设备运行，维护等工作无关的账号
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_7'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查密码重复使用次数限制
+- Advice: No advice
+  Belong: 6其他配置操作
+  Id: '6_17'
+  JudgeResult: No judge result
+  Result: No result
+  SiteInfo_Name: 检查root用户的path环境变量
+ScanType: BaseLine

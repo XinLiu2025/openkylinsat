@@ -1,0 +1,17 @@
+FormatVer: 20220411
+Id: checkRootAuthorizedKeys
+Belong: baseline
+SiteInfo:
+    Name: 检测root是否是免密登录的公钥
+Power : "root"
+SiteRequests:
+    Implement: 
+        ImArray:
+            - Exec : find
+              Args : 
+                - /root/.ssh/
+                - -name authorized_keys
+        Inter:
+            - "" #判断输出为空为不存在
+        Adivice: "建议root设置公钥"
+        Condition: None

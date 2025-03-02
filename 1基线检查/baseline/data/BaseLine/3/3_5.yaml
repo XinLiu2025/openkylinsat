@@ -1,0 +1,14 @@
+Belong: 3认证授权
+FormatVer: 20230523
+Id: '3_5'
+Power: root
+SiteInfo:
+  Name: 检查是否设置SSH登录前警告Banner
+SiteRequests:
+  Implement:
+    Condition: None
+    ImArray:
+    - Args: null
+      Exec: ../data/BaseLine/shellcode/3/3_5.sh
+    Inter:
+    - ''

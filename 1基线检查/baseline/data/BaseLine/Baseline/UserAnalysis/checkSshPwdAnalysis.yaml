@@ -1,0 +1,18 @@
+FormatVer: 20220411
+Id: checkSshPwdAnalysis
+Belong: baseline
+SiteInfo:
+    Name: 检测ssh空密码登录
+Power :
+SiteRequests:
+    Implement: 
+        ImArray:
+            - Exec : /bin/bash
+              Args : 
+                - "-c"
+                - "grep -i empty /etc/ssh/sshd_config"
+        Inter:
+            - "#PermitEmptyPasswords no" 
+            - "#PermitEmptyPasswords yes"
+        Advice : "建议禁止ssh空密码登录"
+        Condition: None

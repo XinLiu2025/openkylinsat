@@ -1,0 +1,16 @@
+FormatVer: 20220411
+Id: checkUser
+Belong: baseline
+SiteInfo:
+    Name: 检测root权限用户
+Power :
+SiteRequests:
+    Implement: 
+        ImArray:
+            - Exec : /bin/bash
+              Args :
+               - "-c" 
+               - "awk -F: '$3==0 {print $1}' /etc/passwd 2>/dev/null"
+        Inter:
+            - "root" #判断输出为'uid=0(root)'为不存在
+        Condition: None

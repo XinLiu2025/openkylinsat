@@ -1,0 +1,14 @@
+Belong: 2账号口令
+FormatVer: 20230523
+Id: '2_5'
+Power: root
+SiteInfo:
+  Name: 检查是否存在空口令账户
+SiteRequests:
+  Implement:
+    Condition: None
+    ImArray:
+    - Args: null
+      Exec: ../data/BaseLine/shellcode/2/2_5.sh
+    Inter:
+    - ''

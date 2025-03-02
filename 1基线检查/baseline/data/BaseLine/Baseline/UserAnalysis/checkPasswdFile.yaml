@@ -1,0 +1,17 @@
+FormatVer: 20220411
+Id: checkPasswdFile
+Belong: baseline
+SiteInfo:
+    Name: 检测Passwd文件权限
+Power :
+SiteRequests:
+    Implement: 
+        ImArray:
+            - Exec : /bin/bash
+              Args :
+                - "-c" 
+                - "ls -l /etc/passwd |awk '{print $1}'"
+        Inter:
+            - "-rw-r--r--" #判断输出为'-rw-r--r--'为不存在
+        Advice: "建议passwd文件设置为可读"
+        Condition: None

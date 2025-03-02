@@ -1,0 +1,16 @@
+FormatVer: 20220411
+Id: AccountBan
+Belong: baseline
+SiteInfo:
+    Name: 账号超时自动注销检测
+Power : "root"
+SiteRequests:
+    Implement: 
+        ImArray:
+            - Exec : cat 
+              Args : 
+                - "/etc/profile | grep TMOUT | awk -F[=] '{print $2}'"
+        Inter:
+            - "" #判断输出为空为不存在
+        Advice: "账号超时需存在自动注销,建议设置小于600秒"
+        Condition: None

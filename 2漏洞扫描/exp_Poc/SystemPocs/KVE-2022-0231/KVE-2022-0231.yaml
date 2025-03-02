@@ -1,0 +1,48 @@
+FormatVer: 20220411
+Id: KVE-2022-0231
+Belong: system
+PocHazardLevel: low
+Source: 
+SiteInfo:
+    Name: kylin-activation软件包是用于授权验证与激活的组件。
+    Severity: high
+    Solution: https://kylinos.cn/support/loophole/patch/1331.html
+    Description:
+         该软件包未对导入文件操作的合法性进行严格限制，因此造成系统配置文件所在目录被导入非法配置文件，从而造成普通用户本地权限提升。
+    ScopeOfInfluence:
+        kylin-activation < 1.3.11-23
+        kylin-activation < 1.30.10-5.p23
+    References:
+        - 
+    SiteClassification:
+        CvssMetrics: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        CvssScore: 7.8
+        CveId: None
+        CweId: None
+        CnvdId: None
+        KveId: KVE-2022-0231
+    Tags:
+        - 权限提升
+        - dbus
+SiteRequests:
+    Implement: 
+        ImArray:
+            - Inter : 
+              InterArgs :
+              Exec : KVE-2022-0231.sh
+              Args : 
+        ExpireTime:       #second
+
+        # < input
+        # > output 
+        # . wait
+        # ? condition
+        # : content
+        #
+        #组合起来
+        # >. 等待直到输出 
+        # << 输入字符
+        # >?判断条件
+        Inter:
+            - ">?:successfully" #ture
+        Condition: None

@@ -1,0 +1,47 @@
+FormatVer: 20220411
+Id: KVE-2022-0206
+Belong: system
+PocHazardLevel: low
+Source: 
+SiteInfo:
+    Name: org.ukui.kds服务的toggleCameraDevice方法存在命令注入漏洞
+    Severity: high
+    Solution: https://kylinos.cn/support/loophole/patch/1874.html
+    Description:
+        org.ukui.kds方法toggleCameraDevice接口存在命令注入漏洞。普通用户可以以root权限执行任意命令
+    ScopeOfInfluence:
+        kylin-display-switch< 3.0.13
+    References:
+        - https://kylinos.cn/support/loophole/patch/1874.html
+    SiteClassification:
+        CvssMetrics: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        CvssScore: 7.8
+        CveId: None
+        CweId: None
+        CnvdId: None
+        KveId: KVE-2022-0206
+    Tags:
+        - 权限提升
+        - dbus
+SiteRequests:
+    Implement: 
+        ImArray:
+            - Inter :
+              InterArgs :
+              Exec : KVE-2022-0206.sh
+              Args : 
+        ExpireTime:       #second
+
+        # < input
+        # > output 
+        # . wait
+        # ? condition
+        # : content
+        #
+        #组合起来
+        # >. 等待直到输出 
+        # << 输入字符
+        # >?判断条件
+        Inter:
+            - ">?:successfully" #ture
+        Condition: None

@@ -1,0 +1,14 @@
+Belong: 6其他配置操作
+FormatVer: 20230523
+Id: '6_19_2'
+Power: root
+SiteInfo:
+  Name: 检查是否存在rhosts文件
+SiteRequests:
+  Implement:
+    Condition: None
+    ImArray:
+    - Args: null
+      Exec: ../data/BaseLine/shellcode/6/6_19_2.sh
+    Inter:
+    - ''

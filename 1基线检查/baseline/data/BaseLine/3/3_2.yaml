@@ -1,0 +1,14 @@
+Belong: 3认证授权
+FormatVer: 20230523
+Id: '3_2'
+Power: root
+SiteInfo:
+  Name: 检查重要目录或文件权限设置
+SiteRequests:
+  Implement:
+    Condition: None
+    ImArray:
+    - Args: null
+      Exec: ../data/BaseLine/shellcode/3/3_2.sh
+    Inter:
+    - ''

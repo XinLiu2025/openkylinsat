@@ -1,0 +1,17 @@
+FormatVer: 20220411
+Id: checkSshBruteProtectionAnalysis
+Belong: baseline
+SiteInfo:
+    Name: 检测ssh暴力破解防护是否开启
+Power :
+SiteRequests:
+    Implement: 
+        ImArray:
+            - Exec : /bin/bash
+              Args :
+                - "-c" 
+                - "grep -i maxauthtries /etc/ssh/sshd_config| awk '{print $1}'"
+        Inter:
+            - "#MaxAuthTries" #判断输出为'#MaxAuthTries'为不存在
+        Advice : "建议开启ssh暴力破解防护"
+        Condition: None

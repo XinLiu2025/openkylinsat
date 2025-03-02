@@ -1,0 +1,16 @@
+FormatVer: 20220411
+Id: CheckFileJurisdiction
+Belong: baseline
+SiteInfo:
+    Name: 检测root目录下存在777权限的文件
+Power : "root"
+SiteRequests:
+    Implement: 
+        ImArray:
+            - Exec : find
+              Args : 
+                - /root
+                - -perm 777
+        Inter:
+            - "" #判断输出为空为不存在
+        Condition: None
