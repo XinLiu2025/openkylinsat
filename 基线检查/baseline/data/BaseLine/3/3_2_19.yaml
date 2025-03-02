@@ -1,0 +1,14 @@
+Belong: 3认证授权
+FormatVer: 20230523
+Id: '3_2_19'
+Power: root
+SiteInfo:
+  Name: 检查/etc/lilo.conf文件权限
+SiteRequests:
+  Implement:
+    Condition: None
+    ImArray:
+    - Args: null
+      Exec: /home/nuc/桌面/NUC_openkylin/基线检查/baseline/data/BaseLine/shellcode/3/3_2_19.sh
+    Inter:
+    - ''

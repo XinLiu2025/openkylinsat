@@ -1,0 +1,14 @@
+Belong: 4日志审计
+FormatVer: 20230523
+Id: '4_1'
+Power: root
+SiteInfo:
+  Name: 检查是否配置远程日志功能
+SiteRequests:
+  Implement:
+    Condition: None
+    ImArray:
+    - Args: null
+      Exec: /home/nuc/桌面/NUC_openkylin/基线检查/baseline/data/BaseLine/shellcode/4/4_1.sh
+    Inter:
+    - ''

@@ -1,0 +1,14 @@
+Belong: 5协议安全
+FormatVer: 20230523
+Id: '5_1'
+Power: root
+SiteInfo:
+  Name: 检查系统openssh安全配置
+SiteRequests:
+  Implement:
+    Condition: None
+    ImArray:
+    - Args: null
+      Exec: /home/nuc/桌面/NUC_openkylin/基线检查/baseline/data/BaseLine/shellcode/5/5_1.sh
+    Inter:
+    - ''

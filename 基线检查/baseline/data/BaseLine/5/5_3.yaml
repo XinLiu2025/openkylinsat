@@ -1,0 +1,14 @@
+Belong: 5协议安全
+FormatVer: 20230523
+Id: '5_3'
+Power: root
+SiteInfo:
+  Name: 检查使用ip协议远程维护的设备是否配置ssh协议，禁用telnet协议
+SiteRequests:
+  Implement:
+    Condition: None
+    ImArray:
+    - Args: null
+      Exec: /home/nuc/桌面/NUC_openkylin/基线检查/baseline/data/BaseLine/shellcode/5/5_3.sh
+    Inter:
+    - ''

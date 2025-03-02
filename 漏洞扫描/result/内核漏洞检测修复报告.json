@@ -1,0 +1,68 @@
+[
+    {
+        "CheckTime": "2024-08-18 11:01:09"
+    },
+    {
+        "Hostname": "nucKylin"
+    },
+    {
+        "CVE-2022-2639": {
+            "CheckResult": 0,
+            "solution": "https://support.huaweicloud.com/intl/zh-cn/bulletin-cce/CVE-2022-2639.html"
+        }
+    },
+    {
+        "CVE-2022-0847": {
+            "CheckResult": 0,
+            "solution": "https://kernel.org/"
+        }
+    },
+    {
+        "CVE-2021-4204": {
+            "CheckResult": 0,
+            "solution": "https://access.redhat.com/security/cve/cve-2021-4204"
+        }
+    },
+    {
+        "CVE-2022-24122": {
+            "CheckResult": 0,
+            "solution": "https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f9d87929d451d3e649699d0f1d74f71f77ad38f5"
+        }
+    },
+    {
+        "CVE-2021-22555": {
+            "CheckResult": 0,
+            "solution": "https://github.com/google/security-research/security/advisories/GHSA-xxx5-8mvq-3528"
+        }
+    },
+    {
+        "CVE-2021-26708": {
+            "CheckResult": 0,
+            "solution": "https://bugzilla.redhat.com/show_bug.cgi?id=1925588"
+        }
+    },
+    {
+        "CVE-2022-0185": {
+            "CheckResult": 0,
+            "solution": "https://access.redhat.com/security/cve/cve-2022-0185"
+        }
+    },
+    {
+        "CVE-2022-23222": {
+            "CheckResult": 0,
+            "solution": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/kernel/bpf/verifier.c?h=v5.10.83#n6022"
+        }
+    },
+    {
+        "CVE-2022-32250": {
+            "CheckResult": 0,
+            "solution": "https://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git/commit/net/netfilter?id=520778042ccca019f3ffa136dd0ca565c486cedd"
+        }
+    },
+    {
+        "CVE-2024-1086": {
+            "CheckResult": 0,
+            "solution": "https://bugzilla.redhat.com/show_bug.cgi?id=1925588"
+        }
+    }
+]

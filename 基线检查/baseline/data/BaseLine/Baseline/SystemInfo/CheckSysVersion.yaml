@@ -1,0 +1,15 @@
+FormatVer: 20220411
+Id: checkSysVersion
+Belong: baseline
+SiteInfo:
+    Name: 操作系统版本
+Power : "root"
+SiteRequests:
+    Implement: 
+        ImArray:
+            - Exec : cat 
+              Args : 
+                - "/proc/version"  
+        Inter:
+            - "" #判断输出为空则出现错误
+        Condition: None

@@ -1,0 +1,16 @@
+FormatVer: 20220411
+Id: checkUserAuthorizedKeys
+Belong: baseline
+SiteInfo:
+    Name: 检测root是否是免密登录的公钥
+Power : "root"
+SiteRequests:
+    Implement: 
+        ImArray:
+            - Exec : find
+              Args : 
+                - "/home -path '/home/*/.box' -prune -o -name 'authorized_keys' -print"
+        Inter:
+            - "" #判断输出为空为不存在
+        Advice: "建议给root使用公钥免密登录"
+        Condition: None

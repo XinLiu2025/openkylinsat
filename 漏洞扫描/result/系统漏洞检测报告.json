@@ -1,0 +1,170 @@
+[
+    {
+        "CheckTime": "2024-08-18 17:17:00"
+    },
+    {
+        "Hostname": "nucKylin"
+    },
+    {
+        "KVE-2022-0206": {
+            "CheckResult": 0,
+            "solution": "https://kylinos.cn/support/loophole/patch/1874.html"
+        }
+    },
+    {
+        "KVE-2022-0210": {
+            "CheckResult": 0,
+            "solution": "https://kylinos.cn/support/loophole/patch/1329.html"
+        }
+    },
+    {
+        "KVE-2022-0207": {
+            "CheckResult": 0,
+            "solution": "https://kylinos.cn/support/loophole/patch/1329.html"
+        }
+    },
+    {
+        "CVE-2022-1292": {
+            "CheckResult": 0,
+            "solution": "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=1ad73b4d27bd8c1b369a3cd453681d3a4f1bb9b2"
+        }
+    },
+    {
+        "KVE-2022-0231": {
+            "CheckResult": 0,
+            "solution": "https://kylinos.cn/support/loophole/patch/1331.html"
+        }
+    },
+    {
+        "KVE-2022-0205": {
+            "CheckResult": 0,
+            "solution": "https://kylinos.cn/support/loophole/patch/2370.html"
+        }
+    },
+    {
+        "CVE-2021-3156": {
+            "CheckResult": 0,
+            "solution": "https://vigilance.fr/vulnerability/libarchive-write-access-via-Symlink-Modes-Times-Flags-Modification-37590"
+        }
+    },
+    {
+        "CVE-2023-0054": {
+            "CheckResult": 0,
+            "solution": "https://github.com/vim/vim/commit/3ac1d97a1d9353490493d30088256360435f7731"
+        }
+    },
+    {
+        "CVE-2022-0714": {
+            "CheckResult": 1,
+            "solution": "https://kylinos.cn/support/loophole/patch/1027.html"
+        }
+    },
+    {
+        "CVE-2022-0359": {
+            "CheckResult": 0,
+            "solution": "https://huntr.dev/bounties/a3192d90-4f82-4a67-b7a6-37046cc88def"
+        }
+    },
+    {
+        "CVE-2021-4034": {
+            "CheckResult": 0,
+            "solution": "https://access.redhat.com/security/cve/cve-2021-4034"
+        }
+    },
+    {
+        "CVE-2022-0572": {
+            "CheckResult": 0,
+            "solution": "https://github.com/vim/vim/commit/6e28703a8e41f775f64e442c5d11ce1ff599aa3f"
+        }
+    },
+    {
+        "CVE-2022-0685": {
+            "CheckResult": 0,
+            "solution": "https://github.com/vim/vim/commit/5921aeb5741fc6e84c870d68c7c35b93ad0c9f87"
+        }
+    },
+    {
+        "CVE-2022-0413": {
+            "CheckResult": 0,
+            "solution": "https://github.com/vim/vim/commit/44db8213d38c39877d2148eff6a72f4beccfb94e"
+        }
+    },
+    {
+        "CVE-2022-0417": {
+            "CheckResult": 0,
+            "solution": "https://github.com/vim/vim/commit/44db8213d38c39877d2148eff6a72f4beccfb94e"
+        }
+    },
+    {
+        "CVE-2022-1771": {
+            "CheckResult": 0,
+            "solution": "https://www.vim.org/"
+        }
+    },
+    {
+        "CVE-2022-2598": {
+            "CheckResult": 0,
+            "solution": "https://github.com/vim/vim/commit/4e677b9c40ccbc5f090971b31dc2fe07bf05541d"
+        }
+    },
+    {
+        "CVE-2022-0729": {
+            "CheckResult": 0,
+            "solution": "https://github.com/vim/vim"
+        }
+    },
+    {
+        "CVE-2021-41773": {
+            "CheckResult": 0,
+            "solution": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-httpd-pathtrv-LAzg68cZ"
+        }
+    },
+    {
+        "CVE-2023-0051": {
+            "CheckResult": 0,
+            "solution": "https://github.com/vim/vim/commit/c32949b0779106ed5710ae3bffc5053e49083ab4"
+        }
+    },
+    {
+        "CVE-2023-0288": {
+            "CheckResult": 0,
+            "solution": "https://github.com/vim/vim/commit/232bdaaca98c34a99ffadf27bf6ee08be6cc8f6a"
+        }
+    },
+    {
+        "CVE-2019-7304": {
+            "CheckResult": 0,
+            "solution": "https://usn.ubuntu.com/3887-1/"
+        }
+    },
+    {
+        "CVE-2022-3602": {
+            "CheckResult": 0,
+            "solution": "https://www.openssl.org/news/secadv/20221101.txt"
+        }
+    },
+    {
+        "CVE-2021-44142": {
+            "CheckResult": 0,
+            "solution": "https://www.samba.org/samba/security/CVE-2021-44142.html"
+        }
+    },
+    {
+        "CVE-2022-0543": {
+            "CheckResult": 0,
+            "solution": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1005787"
+        }
+    },
+    {
+        "CVE-2019-18634": {
+            "CheckResult": 0,
+            "solution": "https://www.sudo.ws/alerts/pwfeedback.html"
+        }
+    },
+    {
+        "CVE-2021-3560": {
+            "CheckResult": 0,
+            "solution": "https://gitlab.freedesktop.org/polkit/polkit/"
+        }
+    }
+]

@@ -1,0 +1,14 @@
+Belong: 6其他配置操作
+FormatVer: 20230523
+Id: '6_28'
+Power: root
+SiteInfo:
+  Name: 检查是否安装OS补丁
+SiteRequests:
+  Implement:
+    Condition: None
+    ImArray:
+    - Args: null
+      Exec: /home/nuc/桌面/NUC_openkylin/基线检查/baseline/data/BaseLine/shellcode/6/6_28.sh
+    Inter:
+    - ''

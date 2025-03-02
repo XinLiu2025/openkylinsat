@@ -1,0 +1,17 @@
+FormatVer: 20220411
+Id: AccountUid
+Belong: baseline
+SiteInfo:
+    Name: 查找非root账号UID为0的账号
+Power : "root"
+SiteRequests:
+    Implement: 
+        ImArray:
+            - Exec : awk
+              Args : 
+                - "-F[:] 'NR!=1{print $3}' /etc/passwd"
+                
+        Inter:
+            - "" #判断输出为空为不存在
+        Advice: "建议非root账号UID为0的账号"
+        Condition: None

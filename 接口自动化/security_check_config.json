@@ -1,0 +1,20 @@
+{
+    "ssh": {
+        "port": 22,
+        "allowed_users": "liuxin",
+        "password_authentication_enabled": false,  
+        "public_key_authentication_enabled": true
+    },
+    "http": {
+        "port": 80,
+        "enabled": true,
+        "ssl_enabled": false,  
+        "access_control_allow_origin": ""  
+    },
+    "ftp": {
+        "port": 21,
+        "anonymous_access": false,  
+        "write_permission_for_users": "nuc"
+    }
+}
+

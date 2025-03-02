@@ -1,0 +1,14 @@
+Belong: 6其他配置操作
+FormatVer: 20230523
+Id: '6_29'
+Power: root
+SiteInfo:
+  Name: 检查是否设置SSH成功登录后Banner
+SiteRequests:
+  Implement:
+    Condition: None
+    ImArray:
+    - Args: null
+      Exec: /home/nuc/桌面/NUC_openkylin/基线检查/baseline/data/BaseLine/shellcode/6/6_29.sh
+    Inter:
+    - ''

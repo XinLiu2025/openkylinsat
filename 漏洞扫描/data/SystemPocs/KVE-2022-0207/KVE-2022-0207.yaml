@@ -1,0 +1,47 @@
+FormatVer: 20220411
+Id: KVE-2022-0207
+Belong: system
+PocHazardLevel: low
+Source: 
+SiteInfo:
+    Name: 源管理服务的changedSource接口任意文件写入漏洞
+    Severity: high
+    Solution: https://kylinos.cn/support/loophole/patch/1329.html
+    Description:
+        com.kylin.software.properties.interface.changedSource接口存在任意文件写入漏洞。可任意替换文件任意行内容。导致权限提升。
+    ScopeOfInfluence:
+        kylin-software-properties< 0.0.1-127
+    References:
+        - https://kylinos.cn/support/loophole/patch/1871.html
+    SiteClassification:
+        CvssMetrics: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        CvssScore: 7.8
+        CveId: None
+        CweId: None
+        CnvdId: None
+        KveId: KVE-2022-0207
+    Tags:
+        - 权限提升
+        - dbus
+SiteRequests:
+    Implement: 
+        ImArray:
+            - Inter: python3
+              InterArgs :
+              Exec : KVE-2022-0207.py
+              Args : 
+        ExpireTime:       #second
+
+        # < input
+        # > output 
+        # . wait
+        # ? condition
+        # : content
+        #
+        #组合起来
+        # >. 等待直到输出 
+        # << 输入字符
+        # >?判断条件
+        Inter:
+            - ">?:successfully" #ture
+        Condition: None

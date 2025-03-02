@@ -1,0 +1,17 @@
+FormatVer: 20220411
+Id: checkShadowFile
+Belong: baseline
+SiteInfo:
+    Name: 检测Shadow文件权限
+Power :
+SiteRequests:
+    Implement: 
+        ImArray:
+            - Exec : /bin/bash
+              Args :
+                - "-c" 
+                - "ls -l /etc/shadow |awk '{print $1}'"
+              Power : 
+        Inter:
+            - "-rw-r-----" #判断输出为'-rw-r--r--'为不存在
+        Condition: None

@@ -1,0 +1,14 @@
+Belong: 2账号口令
+FormatVer: 20230523
+Id: '2_2'
+Power: root
+SiteInfo:
+  Name: 检查是否设置口令最小长度
+SiteRequests:
+  Implement:
+    Condition: None
+    ImArray:
+    - Args: null
+      Exec: /home/nuc/桌面/NUC_openkylin/基线检查/baseline/data/BaseLine/shellcode/2/2_2.sh
+    Inter:
+    - ''
